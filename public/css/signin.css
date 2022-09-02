@@ -1,0 +1,63 @@
+body
+{
+    background: antiquewhite;
+    
+}
+
+.sform
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:200px;
+    
+    
+}
+.innerlogin
+{
+    background:white;
+    width:550px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.fab
+{
+    font-size:40px;
+    color:#2bc4ff;
+    padding-right: 10px;
+}
+.sform form input{
+    display: flex;
+    height:40px;
+    width:450px;
+    padding-top:5px;
+    border-radius: 5px;
+}
+input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sform form label{
+    font-size: 16px;
+    font-weight:bold;
+}
+form input[type=text]
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form input[type=submit]
+{
+    height: 40px;
+    width: 455px;
+    font-size:23px;
+    color:white;
+    background: black;
+    font-weight: bolder;
+    justify-content: center;
+}
